@@ -5,7 +5,7 @@ import { Colors } from '../../assets/images/Colors'
 const TabLayout = () => {
     return (
         <Tabs screenOptions={{
-            headerShown: true, tabBarActiveTintColor: Colors.PRIMARY, tabBarInactiveTintColor: Colors.dark.text,
+            headerShown: false, tabBarActiveTintColor: Colors.PRIMARY, tabBarInactiveTintColor: Colors.dark.text,
             tabBarStyle: {
                 backgroundColor: Colors.SECONDARY,
                 paddingBottom: 14,
